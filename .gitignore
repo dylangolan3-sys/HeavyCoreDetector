@@ -1,0 +1,26 @@
+# gradle
+.gradle/
+build/
+out/
+
+# ide
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# fabric
+run/
+
+# macos
+*.DS_Store
+
+# windows
+Thumbs.db

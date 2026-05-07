@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "heavycoredetector",
+  "version": "${version}",
+  "name": "Heavy Core Detector",
+  "description": "Automatically opens ominous vaults when a Heavy Core is detected inside",
+  "authors": ["dylangolan3-sys"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/heavycoredetector/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.dylangolan3sys.heavycoredetector.HeavyCoreDetectorMod"
+    ],
+    "client": [
+      "com.dylangolan3sys.heavycoredetector.HeavyCoreDetectorClient"
+    ]
+  },
+  "mixins": [
+    "heavycoredetector.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
